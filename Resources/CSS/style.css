@@ -1,7 +1,7 @@
 /* Universal Styles */
 
 body {
-  font-family: Helvetica;
+  font-family: "Helvetica", serif;
   font-size: 22px;
   color: seashell;
   background-color: black;
@@ -50,4 +50,34 @@ body {
 
 #header-nav a {
   color: seashell;
+}
+
+/* Universal Main Content */
+
+.blackbox {
+  background-color: black;
+  text-align: center;
+}
+
+/* Main Content - Our Mission Section */
+
+#mission {
+  height: 700px;
+  width: 1200px;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-mission-background.jpg");
+}
+
+#mission .blackbox {
+  width: 100%;
+}
+
+#mission .blackbox h2 {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#mission .blackbox h4 {
+  font-weight: bold;
+  margin-bottom: 10px;
 }
