@@ -114,3 +114,31 @@ body {
 .tea-feature h4 {
   margin-top: 0;
 }
+
+/* Main Content - Location Section */
+
+#locations {
+  width: 1200px;
+  height: 500px;
+  margin: 0 auto;
+  background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+  justify-content: center;
+  text-align: center;
+}
+
+#locations .row {
+  display: flex;
+}
+
+#locations .blackbox {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 300px;
+  width: 300px;
+  margin: 0 20px;
+}
+
+#locations .blackbox h3 {
+  margin-bottom: 12px;
+}
